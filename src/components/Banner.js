@@ -61,7 +61,7 @@ const Banner = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hi I'm Yeran, I'm a  `}
+                    {`Hi I'm Bhanuka, I'm a  `}
                     <span className="wrap">{text}</span>
                   </h1>
                   <p>Tagline</p>
@@ -77,7 +77,7 @@ const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src="/personal-portfolio/static/media/toonmecom_4ec192.jpeg" alt="Header Img" />
+            <img src="static\media\toonmecom_4ec192.jpeg" alt="Header Img" />
           </Col>
         </Row>
       </Container>
