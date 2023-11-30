@@ -1,6 +1,9 @@
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/project-img1.jpg";
+import projImg2 from "../assets/img/project-img2.jpg";
+import projImg3 from "../assets/img/Procurement for Construction IndustrySystem.jpg";
+import projImg4 from "../assets/img/facebook-quote-template-6.png";
+import projImg5 from "../assets/img/waste managment.jpg";
+import projImg6 from "../assets/img/woman-checking-her-delivery-groceries.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
@@ -10,40 +13,40 @@ import TrackVisibility from "react-on-screen";
 const Projects = () => {
   const projects = [
     {
-      title: "Title",
-      description: "Description",
-      imgUrl: projImg3,
-      projectURL: "URL",
-    },
-    {
-      title: "Title",
-      description: "Description",
+      title: "Southern Agro Serve (Pvt) Ltd",
+      description: "Business management system for Southern Agro Serve (Pvt) Ltd",
       imgUrl: projImg1,
-      projectURL: "URL",
+      projectURL: "https://github.com/SLIITITP/ITP_WE_B01_TW_14",
     },
     {
-      title: "Title",
-      description: "Description",
-      imgUrl: projImg1,
-      projectURL: "URL",
-    },
-    {
-      title: "Title",
-      description: "Description",
+      title: "FinTrack",
+      description: "Mobile Application to manage finances and track income and expenses",
       imgUrl: projImg2,
-      projectURL: "URL",
+      projectURL: "https://github.com/IT21307058/FinTrack",
     },
     {
-      title: "Title",
-      description: "Description",
+      title: "EcoBin",
+      description: "Mobile Application to waste managment",
+      imgUrl: projImg5,
+      projectURL: "https://github.com/IT21307058/EcoBin",
+    },
+    {
+      title: "Procurement for Construction Industry System",
+      description: "Manage Procurement for Construction Industry",
       imgUrl: projImg3,
-      projectURL: "URL",
+      projectURL: "https://github.com/IT21307058/CSSE-PrimeConstruct",
     },
     {
-      title: "Title",
-      description: "Description",
-      imgUrl: projImg1,
-      projectURL: "URL",
+      title: "CCMT",
+      description: "Code complexity measuring tool",
+      imgUrl: projImg4,
+      projectURL: "https://github.com/IT21307058/CCMT-Server/tree/master",
+    },
+    {
+      title: "OneStop",
+      description: "Online-Grocery-Ordering-System -Y2S1 Web Application Developed Using Java based technologies",
+      imgUrl: projImg6,
+      projectURL: "https://github.com/IT21307058/Online-Grocery-Ordering-System---Y2S1",
     },
   ];
 
@@ -60,7 +63,7 @@ const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>Description</p>
+                  <p>Discover a collection of innovative projects showcasing my expertise in developing custom solutions. From business management systems to mobile apps and web applications, each project embodies creativity and cutting-edge technology</p>
                 </div>
               )}
             </TrackVisibility>

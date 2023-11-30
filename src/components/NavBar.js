@@ -2,10 +2,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { useState, useEffect } from "react";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/user-logo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon3 from "../assets/img/nav-icon4.svg";
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -76,19 +76,19 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="URL">
+              <a href="https://www.linkedin.com/in/bhanuka-lakshitha-a31926215/">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="https://www.facebook.com/">
+              <a href="https://www.facebook.com/bhanukalakshitha.dayananda/">
                 <img src={navIcon2} alt="" />
               </a>
-              <a href="https://www.instagram.com/">
+              <a href="https://github.com/IT21307058">
                 <img src={navIcon3} alt="" />
               </a>
             </div>
             <button
               className="vvd"
-              onClick={() => (window.location.href = "URL")}
+              onClick={() => (window.location.href = "https://www.linkedin.com/in/bhanuka-lakshitha-a31926215/")}
             >
               <span>Let's connect</span>
             </button>

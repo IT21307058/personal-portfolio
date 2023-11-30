@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import logo from "../assets/img/logo.svg";
 import atom from "../assets/img/atom.png";
+import profile from "../assets/img/bhanuka-img.jpg";
 import { useEffect, useState } from "react";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -9,7 +10,7 @@ import TrackVisibility from "react-on-screen";
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "UI/UX Designer"];
+  const toRotate = ["Web Developer", "Mobile Developer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -64,10 +65,10 @@ const Banner = () => {
                     {`Hi I'm Bhanuka, I'm a  `}
                     <span className="wrap">{text}</span>
                   </h1>
-                  <p>Tagline</p>
+                  <p>Unlocking Creativity, One Line of Code at a Time</p>
                   <button
                     onClick={() =>
-                      (window.location.href = "URL to LinkedIn profile")
+                      (window.location.href = "https://www.linkedin.com/in/bhanuka-lakshitha-a31926215/")
                     }
                   >
                     Let's connect <ArrowRightCircle size={25} />
@@ -77,7 +78,7 @@ const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src="static\media\toonmecom_4ec192.jpeg" alt="Header Img" />
+            <img src={profile} alt="Header Img" />
           </Col>
         </Row>
       </Container>
