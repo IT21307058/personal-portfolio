@@ -76,7 +76,7 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/bhanuka-lakshitha-a31926215/">
+              <a href="https://www.linkedin.com/in/bhanuka-dayananda-a31926215/">
                 <img src={navIcon1} alt="" />
               </a>
               <a href="https://www.facebook.com/bhanukalakshitha.dayananda/">
