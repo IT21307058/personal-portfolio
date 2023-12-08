@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.3502ac0d.css",
-    "main.js": "/personal-portfolio/static/js/main.f87f076c.js",
+    "main.js": "/personal-portfolio/static/js/main.b63ae8c2.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/woman-checking-her-delivery-groceries.jpg": "/personal-portfolio/static/media/woman-checking-her-delivery-groceries.caf1cc6e1768d055e3a5.jpg",
     "static/media/banner1.jpg": "/personal-portfolio/static/media/banner1.dc3f2735ac8195fb0d0a.jpg",
@@ -45,11 +45,11 @@
     "static/media/html-icon.svg": "/personal-portfolio/static/media/html-icon.560a32f4d7ac2901fe14cecb2ce1594d.svg",
     "static/media/nav-icon2.svg": "/personal-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.3502ac0d.css.map": "/personal-portfolio/static/css/main.3502ac0d.css.map",
-    "main.f87f076c.js.map": "/personal-portfolio/static/js/main.f87f076c.js.map",
+    "main.b63ae8c2.js.map": "/personal-portfolio/static/js/main.b63ae8c2.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3502ac0d.css",
-    "static/js/main.f87f076c.js"
+    "static/js/main.b63ae8c2.js"
   ]
 }
