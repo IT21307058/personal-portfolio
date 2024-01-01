@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.3502ac0d.css",
-    "main.js": "/personal-portfolio/static/js/main.f87f076c.js",
+    "main.js": "/personal-portfolio/static/js/main.89bbcfb0.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/woman-checking-her-delivery-groceries.jpg": "/personal-portfolio/static/media/woman-checking-her-delivery-groceries.caf1cc6e1768d055e3a5.jpg",
     "static/media/banner1.jpg": "/personal-portfolio/static/media/banner1.dc3f2735ac8195fb0d0a.jpg",
@@ -10,6 +10,8 @@
     "static/media/facebook-quote-template-6.png": "/personal-portfolio/static/media/facebook-quote-template-6.1dc460932c61c9c6af81.png",
     "static/media/color-sharp.png": "/personal-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/flutter-firebase-todoapp.png": "/personal-portfolio/static/media/flutter-firebase-todoapp.5696e4b40ea9770eb398.png",
+    "static/media/blog application er diagram.png": "/personal-portfolio/static/media/blog application er diagram.8c3419edbf107e864fec.png",
     "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -45,11 +47,11 @@
     "static/media/html-icon.svg": "/personal-portfolio/static/media/html-icon.560a32f4d7ac2901fe14cecb2ce1594d.svg",
     "static/media/nav-icon2.svg": "/personal-portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.3502ac0d.css.map": "/personal-portfolio/static/css/main.3502ac0d.css.map",
-    "main.f87f076c.js.map": "/personal-portfolio/static/js/main.f87f076c.js.map",
+    "main.89bbcfb0.js.map": "/personal-portfolio/static/js/main.89bbcfb0.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3502ac0d.css",
-    "static/js/main.f87f076c.js"
+    "static/js/main.89bbcfb0.js"
   ]
 }
