@@ -4,6 +4,8 @@ import projImg3 from "../assets/img/Procurement for Construction IndustrySystem.
 import projImg4 from "../assets/img/facebook-quote-template-6.png";
 import projImg5 from "../assets/img/waste managment.jpg";
 import projImg6 from "../assets/img/woman-checking-her-delivery-groceries.jpg";
+import projImg7 from "../assets/img/blog application er diagram.png";
+import projImg8 from "../assets/img/flutter-firebase-todoapp.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
@@ -19,10 +21,10 @@ const Projects = () => {
       projectURL: "https://github.com/SLIITITP/ITP_WE_B01_TW_14",
     },
     {
-      title: "FinTrack",
-      description: "Mobile Application to manage finances and track income and expenses",
-      imgUrl: projImg2,
-      projectURL: "https://github.com/IT21307058/FinTrack",
+      title: "Blog Application - Spring Boot",
+      description: "Features to add post to relvent category and manage post, add comment to post",
+      imgUrl: projImg7,
+      projectURL: "https://github.com/IT21307058/Blog-Application-SpringBoot-BackEnd",
     },
     {
       title: "EcoBin",
@@ -41,6 +43,21 @@ const Projects = () => {
       description: "Code complexity measuring tool",
       imgUrl: projImg4,
       projectURL: "https://github.com/IT21307058/CCMT-Server/tree/master",
+    },
+    {
+      title: "Todo App-Flutter-Firebase",
+      description: "Mobile Application to manage task",
+      imgUrl: projImg8,
+      projectURL: "https://github.com/IT21307058/Flutter-Firebase-TodoApp?tab=readme-ov-file",
+    },
+  ];
+
+  const projects1 = [
+    {
+      title: "FinTrack",
+      description: "Mobile Application to manage finances and track income and expenses",
+      imgUrl: projImg2,
+      projectURL: "https://github.com/IT21307058/FinTrack",
     },
     {
       title: "OneStop",
@@ -92,7 +109,9 @@ const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  Await for more projects...
+                {projects1.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">Await for more projects...</Tab.Pane>
               </Tab.Content>
