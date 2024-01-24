@@ -23,6 +23,7 @@ import meter14 from "../assets/img/intellij-idea-icon.svg";
 import meter15 from "../assets/img/bootstrap-4-icon.svg";
 import meter16 from "../assets/img/oracle-icon.svg";
 import meter17 from "../assets/img/flutter-svgrepo-com.svg";
+import meter18 from "../assets/img/angular-icon.svg";
 
 const Skills = () => {
   const responsive = {
@@ -129,6 +130,10 @@ const Skills = () => {
                 <div className="item">
                   <img src={meter17} alt="" />
                   <h5>Flutter</h5>
+                </div>
+                <div className="item">
+                  <img src={meter18} alt="" />
+                  <h5>Angular</h5>
                 </div>
               </Carousel>
             </div>
